@@ -9,11 +9,11 @@ public class BT4 {
 		System.out.println("Nhập chuỗi: ");
 		String str = sc.nextLine();
 		int vt1 = str.indexOf("h");
-		int vt2 = str.indexOf("e");
-		int vt3 = str.indexOf("l");
-		int vt4 = str.lastIndexOf("l");
-		int vt5 = str.indexOf("o");
-		if(vt1 < vt2 && vt2 < vt3 && vt3 < vt4 && vt4 < vt5)
+		int vt2 = str.indexOf("e",vt1+1);
+		int vt3 = str.indexOf("l",vt2+1);
+		int vt4 = str.lastIndexOf("l",vt3+1);
+		int vt5 = str.indexOf("o",vt4+1);
+		if(vt1 > -1 && vt2 > -1 && vt3 > -1 && vt4 > -1 && vt5 > -1)
 			System.out.println("Yes");
 		else
 			System.out.println("No");

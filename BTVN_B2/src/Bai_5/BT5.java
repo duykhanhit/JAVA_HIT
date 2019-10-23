@@ -12,5 +12,4 @@ public class BT5 {
 		int m = sc.nextInt();
 		System.out.println("Tổng 2 số = "+(m+n));
 	}
-
 }

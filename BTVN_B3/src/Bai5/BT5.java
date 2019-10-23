@@ -14,6 +14,9 @@ public class BT5 {
 		BigInteger inta= new BigInteger(a);
 		BigInteger intb= new BigInteger(b);
 		System.out.println("Tổng = "+intb.add(inta));
+		String s = "123";
+		int ss = Integer.parseInt(s);
+		System.out.println(ss+50);
 	}
 
 }
